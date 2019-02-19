@@ -1,17 +1,16 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.VersionControl;
 using UnityEngine;
 using UnityEngine.SocialPlatforms.Impl;
-using UnityEngine.UI;
+
 
 public class GameControl : MonoBehaviour
 {
-
-    public Text PlayerHealth;
-    public Text PlayerScore;
-    
-    public int health = 50;//poverty 的写法
+    public static GameControl instance;
+    [SerializeField]
+    int health = 50;//poverty 的写法
     public int Health
     {
         
@@ -29,7 +28,10 @@ public class GameControl : MonoBehaviour
             if (health < 10)
             {
                 health = 0;
+                Die();
             }
+
+            
         }
     }
     
@@ -52,24 +54,32 @@ public class GameControl : MonoBehaviour
     void Start()
     {
         DontDestroyOnLoad(this.gameObject);
+        
+        Health = 50;
+        
+        Debug.Log(Health);
       
 
+    }
+
+   
+    
+    public void Die()
+    {
+        Debug.Log("Sorry you die lol");
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        PlayerHealth.text = ""+health;
-        PlayerScore.text = "" + score;
+       if (Input.GetMouseButtonDown(0))
+                   {
+                       Health -= 5;
+                       print("health was set to:" + Health);
+                   }
         
-        if (Input.GetMouseButtonDown(0))
-        {
-            Score ++;
-            health--;
-        }
-        
-        print("Your current score is:"+Score);
+        //print("Your current score is:"+Score);
 
     }
 }
