@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="261e6585-2441-4a43-b50b-ca49c9a39457" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CodeLab1-2019-HW3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CodeLab1-2019-HW3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3HW/.idea/.idea.Week3HW/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Week3HW/.idea/.idea.Week3HW/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week3HW/.idea/.idea.Week3HW/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Week3HW/.idea/.idea.Week3HW/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3HW/Assets/Scripts/GameControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Week3HW/Assets/Scripts/GameControl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3HW/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Week3HW/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3HW/Assets/Scripts/MoveTowards.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Week3HW/Assets/Scripts/MoveTowards.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3HW/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Week3HW/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3HW/Assets/materials/red.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Week3HW/Assets/materials/red.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3HW/Assets/materials/yellow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Week3HW/Assets/materials/yellow.mat" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week3HW/Assets/Scripts/GameManager.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -36,10 +37,22 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Week3HW/Assets/Scripts/PlayerController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week3HW/Assets/Scripts/MoveTowards.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="480">
               <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
               <folding>
                 <element signature="e#0#153#0" expanded="true" />
@@ -57,6 +70,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Week3HW/Assets/Scripts/GameManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Week3HW/Assets/Scripts/MoveTowards.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Week3HW/Assets/Scripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Week3HW/Assets/Scenes/SampleScene.unity" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -64,12 +78,13 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Week3HW/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Week3HW/Assets/Scripts/PlayerController.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="328" />
-    <option name="y" value="205" />
+    <option name="x" value="97" />
+    <option name="y" value="49" />
     <option name="width" value="1216" />
     <option name="height" value="907" />
   </component>
@@ -127,6 +142,7 @@
       <workItem from="1549909522901" duration="791000" />
       <workItem from="1550483455494" duration="94000" />
       <workItem from="1550531656014" duration="785000" />
+      <workItem from="1553464297998" duration="2352000" />
     </task>
     <task id="LOCAL-00001" summary="change ignore">
       <created>1549909660017</created>
@@ -153,7 +169,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1670000" />
+    <option name="totallyTimeSpent" value="4022000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -165,10 +181,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="328" y="205" width="1216" height="907" extended-state="1" />
+    <frame x="97" y="49" width="1216" height="907" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2586505" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26297578" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -228,7 +244,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Week3HW/Assets/Scripts/MoveTowards.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="480">
           <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
           <folding>
             <element signature="e#0#153#0" expanded="true" />
@@ -241,6 +257,16 @@
         <state>
           <folding>
             <element signature="e#0#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week3HW/Assets/Scripts/PlayerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
           </folding>
         </state>
       </provider>
