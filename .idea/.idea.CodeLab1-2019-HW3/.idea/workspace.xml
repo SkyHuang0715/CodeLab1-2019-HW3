@@ -4,9 +4,6 @@
     <list default="true" id="261e6585-2441-4a43-b50b-ca49c9a39457" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Week3HW/.idea/.idea.Week3HW/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Week3HW/.idea/.idea.Week3HW/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week3HW/.idea/.idea.Week3HW/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Week3HW/.idea/.idea.Week3HW/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3HW/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Week3HW/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3HW/Assets/Scripts/GameControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Week3HW/Assets/Scripts/GameControl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3HW/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Week3HW/Assets/Scripts/GameManager.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="97" />
     <option name="y" value="49" />
     <option name="width" value="1216" />
@@ -180,7 +177,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="97" y="49" width="1216" height="907" extended-state="1" />
+    <frame x="97" y="49" width="1216" height="907" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26297578" />

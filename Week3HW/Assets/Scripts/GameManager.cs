@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
         myPlayer.Score = 0;
         int x = myPlayer.Score;
         
-        myPlayer.Health = 20;
+        myPlayer.Health = 50;
         int y = myPlayer.Health;
     }
 

@@ -30,6 +30,8 @@ public class GameControl : MonoBehaviour
                 health = 0;
                 Die();
             }
+            
+            print("health was set to:" + Health);
 
             
         }
@@ -79,11 +81,11 @@ public class GameControl : MonoBehaviour
     void Update()
     {
 
-       if (Input.GetMouseButtonDown(0))
-                   {
-                       Health -= 5;
-                       print("health was set to:" + Health);
-                   }
+      // if (Input.GetMouseButtonDown(0))
+                 //  {
+                 //      Health -= 5;
+                  //     print("health was set to:" + Health);
+                  // }
         
         //print("Your current score is:"+Score);
 
