@@ -61,7 +61,7 @@ public class GameControl : MonoBehaviour
             DontDestroyOnLoad(this.gameObject);
         }
         
-        
+        DontDestroyOnLoad(this.gameObject);
         Health = 50;
         
         
@@ -75,6 +75,12 @@ public class GameControl : MonoBehaviour
     public void Die()
     {
         Debug.Log("Sorry you die lol");
+        GameObject player = GameObject.Find("Player");
+        if (player)
+        {
+            Destroy(player.gameObject);
+            Debug.Log(player + "has been destroyed"); //destroy cube if player is died
+        }
     }
 
     // Update is called once per frame

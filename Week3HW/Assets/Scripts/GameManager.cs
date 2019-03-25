@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        DontDestroyOnLoad(this.gameObject);
+        
         GameControl myPlayer = new GameControl();
         myPlayer.Score = 0;
         int x = myPlayer.Score;
@@ -28,8 +30,8 @@ public class GameManager : MonoBehaviour
             //x ++;
            // y -= 5;
         }
-       // PlayerHealth.text = ""+ x;
-        //PlayerScore.text = "" + score; 
+        PlayerHealth.text = "Health "+ GameControl.instance.Health;
+        PlayerScore.text = "Score " + GameControl.instance.Score; 
     }
 
     

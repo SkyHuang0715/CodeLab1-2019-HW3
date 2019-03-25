@@ -13,7 +13,7 @@ public class MoveTowards : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        DontDestroyOnLoad(this.gameObject);
+       // DontDestroyOnLoad(this.gameObject);
         Scene scene = SceneManager.GetActiveScene();
         //PlayerHealth = GetComponent<GameControl>();
        // PlayerScore = GetComponent<GameControl>();
@@ -30,13 +30,15 @@ public class MoveTowards : MonoBehaviour
         
     }
 
-    private void OnMouseDown()
+     void OnTriggerEnter2D(Collider2D other)
     {
         //throw new System.NotImplementedException();
         // -= 5;
-        
-        transform.position = new Vector3(6, 5, 0);
-        
-        SceneManager.LoadScene("scene2");
+        if (other.gameObject.CompareTag("Player")) //if the collider attached the door
+        {
+           // transform.position = new Vector3(0, 4, 0);
+
+            SceneManager.LoadScene("scene2");
+        }
     }
 }
