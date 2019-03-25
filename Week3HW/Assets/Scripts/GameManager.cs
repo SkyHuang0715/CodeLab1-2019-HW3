@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         GameControl myPlayer = new GameControl();
-        myPlayer.Score = 10;
+        myPlayer.Score = 0;
         int x = myPlayer.Score;
         
         myPlayer.Health = 20;

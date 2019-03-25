@@ -53,9 +53,15 @@ public class GameControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        DontDestroyOnLoad(this.gameObject);
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(this.gameObject);
+        }
+        
         
         Health = 50;
+        
         
         Debug.Log(Health);
       
@@ -81,6 +87,7 @@ public class GameControl : MonoBehaviour
         
         //print("Your current score is:"+Score);
 
+        
     }
 }
     
